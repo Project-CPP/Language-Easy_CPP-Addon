@@ -16,3 +16,23 @@ using namespace std;
 #define IntegerEnd ;
 #define Word string
 #define WordEnd ;
+
+// Windows 
+class WindowMessage
+{
+public:
+
+	// Default Constructor
+	WindowMessage();
+
+	// Overload Constructor
+	WindowMessage(string, string);
+
+	//Accessors 
+	void OutputWindow();
+
+private:
+	string Message;
+	string MessageName;
+
+};
