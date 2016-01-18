@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include <wlanapi.h>
 #include <sstream>
 #include <Windows.h>
 
@@ -62,6 +63,26 @@ public:
 	
 	
 	
+
+private:
+
+};
+
+
+
+
+
+class WindowsWlan
+{
+
+public:
+
+	//Default Constructor
+	WindowsWlan(bool);
+
+	// Accessors
+	int Get_Wifi_Signal_As_Integer();
+	int Console_Out_In_Depth_Wifi_Information();
 
 private:
 
